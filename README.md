@@ -8,17 +8,19 @@ The application is built using Vanilla JavaScript to create basic classes for No
 
 I would like to add JavaScript modules to separte the the user data from the breadth first search responsibilites.
 
+I would also like to create grammatically correct results dependent on the number of seperation degrees(i.e. "Separted by one degree" vs "Separated by two degrees")
+
+The project is initialized with five users and four connections. Currently, a connection search is done between `userOne` and `userFive`. 
+
 ### Prerequisites
 - nodejs 15.7.0
 
 
 ### Project Install
-Have the backend server running first. Follow README instructions through this [roster_backend](https://github.com/ltramos7/roster_backend) repository, then return to this README and continue.
+- Clone the repository: `git clone https://github.com/ltramos7/crowdTracker`
+- cd into `contactTracker``
 
-- Clone the repository: `git clone https://github.com/ltramos7/roster_frontend.git`
-- cd into `roster_frontend`
-- run`npm install`
+### Run Application
+- run `node index.js`
 
-### Start server
-- run `npm start` or `yarn start`
-- port will open to http://localhost:5000/
+- Experiment with different results by changing the arguments of `breadthFirstSearch` on line 120. Current users are labled `userOne`, `userTwo`, `userThree`, `userFour`, and `userFive`.
