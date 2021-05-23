@@ -37,7 +37,7 @@ class Graph {
       shortestPath.push(currentNode)
       currentNode = visitedNodes[currentNode.value.firstName]
     }
-    console.log(`There are ${shortestPath.length -1 } degrees of separation between ${startNode.value.firstName} and ${endNode.value.firstName}`)
+    console.log(`There are ${shortestPath.length -1 } degrees of separation between ${startNode.value.firstName} and ${endNode.value.firstName}.`)
   }
 
   breadthFirstSearch(start, end){
