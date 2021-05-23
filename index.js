@@ -37,8 +37,7 @@ class Graph {
       shortestPath.push(currentNode)
       currentNode = visitedNodes[currentNode.value.firstName]
     }
-    // return "Met"
-    return `There are ${shortestPath.length -1 } degrees of separation between ${startNode.value.firstName} and ${endNode.value.firstName}`
+    console.log(`There are ${shortestPath.length -1 } degrees of separation between ${startNode.value.firstName} and ${endNode.value.firstName}`)
   }
 
   breadthFirstSearch(start, end){
@@ -50,7 +49,6 @@ class Graph {
       const node = queue.shift()
 
       if(node.value.firstName === end.value.firstName){
-        // console.log("Found it")
         this.recontructPath(visitedNodes, start, end)
       }
 
