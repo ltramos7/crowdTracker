@@ -18,7 +18,7 @@ The project is initialized with five users and four connections. Currently, a co
 
 ### Project Install
 - Clone the repository: `git clone https://github.com/ltramos7/crowdTracker`
-- cd into `contactTracker``
+- cd into `crowdTracker`
 
 ### Run Application
 - run `node index.js`
