@@ -23,4 +23,4 @@ The project is initialized with five users and four connections. Currently, a co
 ### Run Application
 - run `node index.js`
 
-- Experiment with different results by changing the arguments of `breadthFirstSearch` on line 120. Current users are labled `userOne`, `userTwo`, `userThree`, `userFour`, and `userFive`.
+- Experiment with different results by changing the arguments of `breadthFirstSearch` on line 120 with the current users available labled `userOne`, `userTwo`, `userThree`, `userFour`, and `userFive`.
